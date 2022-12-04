@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card/Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="prod_style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header class="header">
+
+      <div class="header-1">
+  
+          <a href="#" class="logo"> <i class="fas fa-book"></i> projectly </a>
+  
+          <form action="" class="search-form">
+              <input type="search" name="" placeholder="search here..." id="search-box">
+              <label for="search-box" class="fas fa-search"></label>
+          </form>
+  
+          <div class="icons">
+              <div id="search-btn" class="fas fa-search"></div>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <div id="login-btn" class="fas fa-user"></div>
+          </div>
+  
+      </div>
+  
+      <div class="header-2">
+          <nav class="navbar">
+              <a href="index.html">home</a>
+              <a href="#featured">featured</a>
+              <a href="#arrivals">arrivals</a>
+              <a href="#reviews">reviews</a>
+              <a href="#blogs">blogs</a>
+          </nav>
+      </div>
+  
+  </header>
+  
+  <!-- header section ends -->
+  
+  <!-- bottom navbar  -->
+  
+  <nav class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#featured" class="fas fa-list"></a>
+      <a href="#arrivals" class="fas fa-tags"></a>
+      <a href="#reviews" class="fas fa-comments"></a>
+      <a href="#blogs" class="fas fa-blog"></a>
+  </nav>
+  
+    <div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "shoes_images/shoe_1.jpg" alt = "shoe image">
+              <img src = "shoes_images/shoe_2.jpg" alt = "shoe image">
+              <img src = "shoes_images/shoe_3.jpg" alt = "shoe image">
+              <img src = "shoes_images/shoe_4.jpg" alt = "shoe image">
+              <img src = "shoes_images/shoe_5.jpg" alt = "shoe image">
+              <img src = "shoes_images/shoe_6.jpg" alt = "shoe image">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "shoes_images/shoe_1.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "shoes_images/shoe_2.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "shoes_images/shoe_3.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "shoes_images/shoe_4.jpg" alt = "shoe image">
+              </a>
+            </div>
+
+            <div class = "img-item">
+              <a href = "#" data-id = "5">
+                <img src = "shoes_images/shoe_5.jpg" alt = "shoe image">
+              </a>
+            </div>
+
+            <div class = "img-item">
+              <a href = "#" data-id = "6">
+                <img src = "shoes_images/shoe_6.jpg" alt = "shoe image">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class = "product-content">
+          <h2 class = "product-title">heart diagnostic</h2>
+          <a href = "#" class = "product-link">Flask+Python+SQLite</a>
+          <div class = "product-rating">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star-half-alt"></i>
+            <span>4.7(21)</span>
+          </div>
+
+          <div class = "product-price">
+            <p class = "last-price">Old Price: <span>$257.00</span></p>
+            <p class = "new-price">New Price: <span>$249.00 (5%)</span></p>
+          </div>
+
+          <div class = "product-detail">
+            <h2>about Project: </h2>
+            <p>This is a complete end-to-end project developed using Python, Flask, and SQLite as database. The key features of the project are as follows:.</p>
+            <p></p>
+            <ul>
+              <li> <span>&#10003;</span> <strong>Project Report: </strong><span>Detailed project report with methodology and model architecture</span></li>
+              <li> <span>&#10003;</span> <strong>Source Code: </strong><span>Complete source code with proper comments</span></li>
+              <li> <span>&#10003;</span> <strong>Project Video: </strong><span>Video explaining the problem statement and methodology</span></li>
+              <li> <span>&#10003;</span> <strong>Web App (Optional): </strong><span>Complete working web app in Python and Flask</span></li>
+              
+              <li> <span>&#10003;</span> <strong>Viva Questions: </strong><span>Probable questions that can be asked regarding the project</span></li>
+            </ul>
+          </div>
+
+          <div class = "purchase-info">
+            <input type = "number" min = "0" value = "1">
+            <button type = "button" class = "btn">
+              Buy Now<i class = "fas fa-shopping-cart"></i>
+            </button>
+            
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
